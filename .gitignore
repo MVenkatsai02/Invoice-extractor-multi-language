@@ -1,0 +1,49 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+logs/
+cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python package dependencies
+*.egg-info/
+dist/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Images and uploads (optional)
+uploads/
+*.png
+*.jpg
+*.jpeg
+
+# Ignore model checkpoints or large data files
+checkpoints/
+*.h5
+*.pth
+*.ckpt
